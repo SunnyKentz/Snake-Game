@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(90deg,#e66465, #4654f3);
+}
+canvas{
+    
+    box-shadow: Black 20px 10px 50px;
+}
+
+div{
+    margin: 0px;
+    padding: 4px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    border: 1px solid black;
+    font-family: monospace;
+    font-size: 3vw;
+    text-align:center;
+    width: 50%;
+}
+
+.thead:hover {
+    background-color: rgba(212, 57, 57, 0.164);
+    border-color:rgba(212, 57, 57, 0.164);;
+}
+
+h1,h2{
+    text-align:center;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0),#e66465, rgba(255, 255, 255, 0));
+    font-size: 5vw;
+    font-family: monospace;
+    font-weight: lighter;
+}
